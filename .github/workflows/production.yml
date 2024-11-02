@@ -34,6 +34,6 @@ jobs:
       - name: Deploy to Azure App Services
         uses: azure/webapps-deploy@v3
         with:
-          app-name: agrosense-api-mobile
+          app-name: agrosense-sprint4-api
           publish-profile: ${{ secrets.azureWebAppPublishProfile }}
           package: '*.jar'
